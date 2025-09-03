@@ -1,17 +1,6 @@
 # SARIMA-GRU Time Series Forecasting
 A hybrid deep learning model that combines SARIMA (Seasonal AutoRegressive Integrated Moving Average) components with GRU (Gated Recurrent Unit) neural networks for time series forecasting, specifically designed for lake water level prediction.
 
-```
-Project/
-├── README.md
-├── train.py
-├── sarimaGRU.py
-├── loadData.py
-├── general.py
-├── Dataset/
-└── models/
-```
-
 ### Hardware Requirements
 - **GPU**: NVIDIA GPU with CUDA support (recommended for faster training)
 - **CPU**: Multi-core processor (fallback option)
