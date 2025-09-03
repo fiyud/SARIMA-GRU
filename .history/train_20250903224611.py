@@ -6,9 +6,9 @@ from torch.utils.data import DataLoader
 import argparse
 import os
 
-from utils.loadData import prepare_data
-from utils.general import train_model, evaluate_model
+from loadData import prepare_data
 from sarimaGRU import SARIMAGRU
+from general import train_model, evaluate_model
 
 import warnings
 warnings.filterwarnings('ignore')
